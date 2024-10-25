@@ -17,7 +17,7 @@ const DetallesImpuesto: React.FC = () => {
   return (
     <div className="detalles-impuesto-container">
       <h2 className="title">Municipalidad de Santa Lucía</h2>
-      <img className="logoSantaLucia" src="../public/LogoSantaLucia.png" alt="Logo Municipalidad" />
+      <img className="logoSantaLucia" src="./public/LogoSantaLucia.png" alt="Logo Municipalidad" />
       
       <table className="details-table">
         <thead>
