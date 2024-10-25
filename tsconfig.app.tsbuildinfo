@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/vite-env.d.ts","./src/components/bienesinmueblesdetalles.tsx","./src/components/header.tsx","./src/components/imagen.tsx","./src/components/loginform.tsx","./src/components/sidebar.tsx","./src/pages/bienesinmuebles.tsx","./src/pages/dashboard.tsx","./src/pages/menuprincipal.tsx","./src/routes/approutes.tsx"],"version":"5.6.3"}
