@@ -25,7 +25,7 @@ const LoginForm: React.FC = () => {
         <div className="top-image">
           <img className="BancoLinea" src="public/LogoCompletoBALinea.png" alt="LogoBancoAtlantida" />
         </div>
-        <img src="public/LogoSantaLucia.png" alt="Illustration" className="illustration" />
+        <img src="./public/LogoSantaLucia.png" alt="Illustration" className="illustration" />
         
         {/* New section for additional content */}
         <div className="additional-content">
