@@ -23,7 +23,7 @@ const LoginForm: React.FC = () => {
       <div className="left-section">
         {/* Top image */}
         <div className="top-image">
-          <img className="BancoLinea" src="public/LogoCompletoBALinea.png" alt="LogoBancoAtlantida" />
+          <img className="BancoLinea" src="./public/LogoCompletoBALinea.png" alt="LogoBancoAtlantida" />
         </div>
         <img src="./public/LogoSantaLucia.png" alt="Illustration" className="illustration" />
         
