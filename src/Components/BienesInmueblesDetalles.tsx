@@ -118,7 +118,7 @@ const DetallesImpuesto: React.FC = () => {
         <div className="modal">
           <div className="modal-content">
             <h3>Detalles de Facturación</h3>
-            <img className="logoSantaLucia" src="/public/LogoSantaLucia.png" alt="Logo Municipalidad" />
+            <img className="logoSantaLucia" src="../public/LogoSantaLucia.png" alt="Logo Municipalidad" />
             <p>Mensaje de confirmación sobre la facturación.</p>
             <button onClick={handleCloseModal} className="button">Aceptar</button>
           </div>
