@@ -15,7 +15,7 @@ const Dashboard: React.FC = () => {
           {/* Aquí insertas el contenido principal con la imagen */}
           <div className="center-content">
             <img 
-              src="..public/LogoSantaLucia.png" 
+              src="../public/LogoSantaLucia.png" 
               alt="Municipalidad de Santa Lucía" 
               className="main-image"
             />
