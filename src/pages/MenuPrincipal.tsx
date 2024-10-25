@@ -6,7 +6,7 @@ const MainPage: React.FC = () => {
     <div>
       <div className="municipality-header">
         <img 
-          src="public/LogoSantaLucia.png" 
+          src="../public/LogoSantaLucia.png" 
           alt="Municipalidad de Santa Lucía" 
           className="municipality-logo" 
         />
