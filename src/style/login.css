@@ -1,0 +1,130 @@
+/* Main wrapper with two columns for the form and illustration */
+.login-wrapper {
+    display: flex;
+    height: 100vh; /* Full screen height */
+    justify-content: center;
+    align-items: center;
+    background-color: #eeeeee; /* Light background */
+    padding: 20px;
+    gap: 0px; /* Gap between sections */
+    position: relative;
+    overflow: hidden;
+}
+
+/* Left section for the logo or illustration */
+.left-section {
+    width: 45%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; /* Align items to the left */
+    background-color: #fcfcfc; /* Light background for left side */
+    border-radius: 5px; /* Rounded edges */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    z-index: 1; /* Keep it above the background */
+    padding-left: 20px; /* Add some padding to the left */
+}
+
+/* Top image for Banco Atlántida */
+.top-image {
+    margin-bottom: 30px;
+}
+
+.top-image img.BancoLinea {
+    width: 180px; /* Adjust width for the Banco Atlántida logo */
+    height: auto;
+    margin-top: 20%;
+    display: block;
+    margin-left: 20px; /* Align the Banco Atlántida logo to the left */
+}
+
+/* Logo of Santa Lucía */
+.illustration {
+    max-width: 550px; /* Adjust the size of the Santa Lucía logo */
+    height: 100%;
+    display: block;
+    margin-left: 5px; /* Adjust to position correctly */
+}
+
+/* Right section for the form */
+.right-section {
+    width: 45%;
+    height: 80%;
+    background-color: #e7cccc; /* Background for the form */
+    padding: 40px;
+    border-radius: 5px; /* Smooth rounded borders */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    z-index: 1; /* Keep it above the background */
+}
+
+/* Footer text */
+.footer-text {
+    margin-top: 20px;
+}
+
+.footer-text p {
+    color: #ffffff;
+    font-size: 14px;
+    text-align: center;
+}
+
+  
+  /* Input fields */
+  .input-group {
+    margin-bottom: 15px;
+    width: 100%;
+    margin-right: 120px;
+    border-radius: 20px;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    margin-right: -10%;
+    border-radius: 10px; /* Smooth rounded input fields */
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  /* Button styling */
+  .buttons {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border-radius: 20%;
+  }
+  
+  .login-btn {
+    background-color: #d39b01;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 30px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-btn:hover {
+    background-color: #ffca28;
+  }
+  
+   /* Center the illustration inside the left section */
+/* New section below the Santa Lucia logo */
+.additional-content {
+    margin-top: 110px; 
+    margin-left: 33%;/* Adds space between the logo and the new content */
+    text-align: center;
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Center the logo and content */
+

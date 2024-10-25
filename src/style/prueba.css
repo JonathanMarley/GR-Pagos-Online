@@ -1,0 +1,412 @@
+.layout {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .header {
+    background-color: #f04e23; /* Color de fondo */
+    color: white; /* Color del texto */
+    padding: 10px 20px; /* Ajusta el espaciado interno */
+    text-align: center;
+    width: 100%; /* Asegura que el encabezado ocupe todo el ancho */
+    position: fixed; /* Mantiene el header siempre visible en la parte superior */
+    top: 0; /* Lo ajusta al tope de la pantalla */
+    left: 0; /* Lo alinea al borde izquierdo */
+    z-index: 1000; /* Asegura que el header esté por encima de otros elementos */
+  }
+  
+  .header h1 {
+    margin: 0;
+    font-size: 24px; /* Ajuste del tamaño del título */
+    font-weight: bold;
+    margin-left: -90%;
+  }
+  
+  .user-profile {
+    font-size: 16px; /* Ajusta el tamaño de la fuente del nombre de usuario */
+    margin-right: 20px;
+    position: absolute;
+    right: 100px; /* Posición del nombre de usuario en la esquina derecha */
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .user-icon {
+    margin-right: 8px;
+    color: white;
+  }
+  
+  .user-name {
+    font-weight: bold;
+  }
+  
+  
+  .layout-content {
+    display: flex;
+    flex: 1;
+  }
+  
+  .sidebar {
+    background-color: #ffffff;
+    padding: 20px;
+    width: 320px;
+  }
+  
+  .main-content {
+    flex-grow: 1;
+    padding: 10px;
+    background-color: #ffffff;
+    margin-left: 70px;
+  }
+
+  /*=============================Menu desplegable===========================*/
+ /* Estilos del menú desplegable */
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    list-style: none;
+    padding: 10px 0;
+    margin: 0;
+    width: 150px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+  
+  .dropdown-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .dropdown-menu li {
+    padding: 10px 20px;
+  }
+  
+  .dropdown-menu li a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+  }
+  
+  .dropdown-menu li a:hover {
+    background-color: #f0f0f0;
+  }
+  
+  /*=======================================================================*/
+  .sidebar {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-top: 40px;
+    
+
+  }
+  
+  h3 {
+    color: #333;
+    font-size: 17px; /* Tamaño de fuente ajustado */
+    margin-bottom: 10px; /* Espacio debajo del título */
+    white-space: normal; /* Asegura que el texto se ajuste a varias líneas si es necesario */
+    text-align: left; /* Alineación del texto a la izquierda */
+    width: 100%; /* Asegura que el título ocupe todo el ancho disponible */
+}
+  
+  .btn {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #464646;
+    background-color: rgb(224, 224, 224);
+    transition: background-color 0.3s;
+    margin-bottom: 1px; /* Corrige el margen entre botones */
+    padding: 20px 25px; /* Añade padding para agrandar el botón */
+    
+    min-width: 300px; /* Mínimo ancho del botón, ajústalo como prefieras */
+    max-width: 300px; /* Máximo ancho del botón */
+}
+
+  .btn:hover {
+    background-color: #f04e23;
+    color: white;
+  }
+  
+  .icon {
+    margin-right: 10px;
+  }
+
+  .icon:hover {
+    color:  white;
+  }
+  
+  
+  .text-warning {
+    color: #f04e23 !important; /* Color naranja para los íconos */
+  }
+  .text-warning:hover {
+    color: #ffffff !important; /* Color naranja para los íconos */
+  }
+  
+  .shadow-sm {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+  }
+  
+  .menu-list li {
+    margin-bottom: 0; /* Elimina los márgenes entre los elementos de la lista */
+  }
+  
+  /*=========================================Meotod de imagenes ===================================*/
+  .welcome-container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  .welcome-img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  h2 {
+    color: #2c3e50;
+    font-weight: bold;
+  }
+  
+  p {
+    color: #7f8c8d;
+  }
+
+  /*================================DISENIO DE TABLAS ===========================*/
+  .detalles-impuesto-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Alinea el contenido hacia la parte superior */
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: -535px; /* Ajusta este valor para mover el contenedor hacia arriba o abajo según sea necesario */
+    width: 77%; /* Toma casi todo el ancho disponible, ajusta según sea necesario */
+    max-width: 950px; /* Limita el ancho máximo */
+    height: 100%; /* Ajusta la altura según el contenido */
+    margin-left: 27%; /* Ajusta margen para centrar */
+    border: 1px solid #d3d3d3; /* Borde gris claro */
+}
+
+
+
+
+.title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.logo {
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.details-table {
+    width: 101%;
+    max-width: 950px;
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.details-table th, .details-table td {
+    padding: 10px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    font-size: 15px;
+}
+
+.details-table th {
+    background-color: #f04e23;
+    color: white;
+    text-align: center;
+}
+
+.details-table tr:hover {
+    background-color: #f0f0f0;
+}
+
+.details-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+
+/*=================================Metodo de ventana nodal+================================*/
+/* Estilos para el modal */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Fondo oscuro */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 700px;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .modal-content button {
+    background-color: #f04e23;
+    color: white;
+    border: none;
+    padding: 8px 16px; /* Reduce el tamaño del botón */
+    border-radius: 5px;
+    cursor: pointer;
+    width: auto; /* Cambia el ancho a automático */
+    font-size: 14px; /* Ajusta el tamaño de la fuente */
+  }
+  
+  .modal-content button:hover {
+    background-color: #e53e10;
+  }
+  
+  .modal-content h3 {
+    margin-bottom: 10px;
+  }
+  
+  .modal-content p {
+    margin-bottom: 20px;
+  }
+  
+  .modal-content button {
+    background-color: #f04e23;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .modal-content button:hover {
+    background-color: #e53e10;
+  }
+  
+  /*=========================================================*/
+  /* Styles for small devices like mobile phones */
+@media (max-width: 767px) {
+    .layout {
+      flex-direction: column;
+    }
+  
+    .header {
+      padding: 10px;
+      font-size: 18px; /* Adjust font size for smaller screens */
+    }
+  
+    .header h1 {
+      font-size: 20px; /* Smaller title for mobile */
+      margin-left: 0;
+    }
+  
+    .user-profile {
+      font-size: 14px;
+      margin-right: 10px;
+      right: 10px;
+    }
+  
+    .sidebar {
+      width: 100%;
+      margin-top: 0;
+      padding: 10px;
+    }
+  
+    .main-content {
+      padding: 10px;
+    }
+  
+    .detalles-impuesto-container {
+      margin-top: 10px;
+      width: 100%;
+      margin-left: 0;
+      max-width: 100%;
+    }
+  
+    .details-table {
+      width: 100%;
+    }
+  
+    .input-group input {
+      width: 100%;
+    }
+    
+    .buttons {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .btn {
+      min-width: 100%;
+    }
+  }
+  
+  /* Styles for tablets */
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .sidebar {
+      width: 200px;
+      padding: 15px;
+    }
+  
+    .main-content {
+      padding: 15px;
+    }
+  
+    .header h1 {
+      font-size: 22px;
+    }
+  
+    .user-profile {
+      font-size: 15px;
+      right: 20px;
+    }
+  
+    .detalles-impuesto-container {
+      width: 90%;
+      margin-left: 5%;
+    }
+  }
+  
+  /* Styles for larger devices like desktops */
+  @media (min-width: 1024px) {
+    .layout-content {
+      flex-direction: row;
+    }
+  
+    .sidebar {
+      width: 300px;
+    }
+  
+    .main-content {
+      flex-grow: 1;
+    }
+  
+    .details-table {
+      width: 100%;
+    }
+  }
+  
